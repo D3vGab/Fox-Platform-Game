@@ -5,6 +5,7 @@ using UnityEngine;
 public class Fox : MonoBehaviour
 {
     public float speed;
+    public float jumpForce;
     private Rigidbody2D rg;
     private Animator anim;
     // Start is called before the first frame update
@@ -33,6 +34,11 @@ public class Fox : MonoBehaviour
         else 
         {
             anim.SetBool("walk", false);
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space)) {
+            rg.AddForce(new Vector2(0f, jumpForce));
+            anim.SetBool("jump", true);
         }
     }
 }

@@ -601,8 +601,8 @@ GameObject:
   - component: {fileID: 651641488}
   - component: {fileID: 651641490}
   - component: {fileID: 651641492}
-  - component: {fileID: 651641491}
   - component: {fileID: 651641493}
+  - component: {fileID: 651641494}
   m_Layer: 0
   m_Name: player-idle-1
   m_TagString: Untagged
@@ -670,7 +670,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651641487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.64, y: -3.326, z: 0}
+  m_LocalPosition: {x: -1.64, y: -3.35, z: 0}
   m_LocalScale: {x: 4.0038986, y: 4.0038986, z: 4.0038986}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -697,22 +697,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!58 &651641491
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651641487}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.009148324, y: -0.03280375}
-  serializedVersion: 2
-  m_Radius: 0.10432607
 --- !u!50 &651641492
 Rigidbody2D:
   serializedVersion: 4
@@ -747,6 +731,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  jumpForce: 1000
+--- !u!58 &651641494
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651641487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.008370794, y: -0.005612536}
+  serializedVersion: 2
+  m_Radius: 0.0941389
 --- !u!1 &720462868
 GameObject:
   m_ObjectHideFlags: 0

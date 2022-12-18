@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 359244a9c9d79934da15991629f9934e
-      internalID: -921485944
+      spriteID: fb301561cc84bbe4293670aaf12a4629
+      internalID: 410730482
       vertices: []
       indices: 
       edges: []
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510ad06ec464b3d4389783df7ce881d7
-      internalID: 510893109
+      spriteID: 14d37c59f79f7ac429c4968fe09e06c1
+      internalID: 2017195702
       vertices: []
       indices: 
       edges: []
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6defa46aa977718448b6c426de68b300
-      internalID: -1748572451
+      spriteID: 500585632f0c7d645bd02c0164c2939b
+      internalID: -1203508612
       vertices: []
       indices: 
       edges: []
@@ -206,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaf1388177975c9408404bb32dd21652
-      internalID: -2010662705
+      spriteID: 84bc104d551971643b59c9ce1edbb81b
+      internalID: 842820867
       vertices: []
       indices: 
       edges: []
@@ -219,7 +219,7 @@ TextureImporter:
         x: 140
         y: 0
         width: 17
-        height: 22
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daaf84026d59d654daa3d4d3eb920274
-      internalID: 1376770712
+      spriteID: cb069161a142db24f8d8d863d011a990
+      internalID: -1660608176
       vertices: []
       indices: 
       edges: []
@@ -248,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1263276c2751ff243923a7ca21e6f26d
-      internalID: -744434478
+      spriteID: 26752903a1ddf5c4b85be5797bab1277
+      internalID: -2131824168
       vertices: []
       indices: 
       edges: []
@@ -265,12 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      payer-run_0: -921485944
-      payer-run_1: 510893109
-      payer-run_4: 1376770712
-      payer-run_2: -1748572451
-      payer-run_5: -744434478
-      payer-run_3: -2010662705
+      payer-run_0: 410730482
+      payer-run_1: 2017195702
+      payer-run_4: -1660608176
+      payer-run_2: -1203508612
+      payer-run_5: -2131824168
+      payer-run_3: 842820867
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

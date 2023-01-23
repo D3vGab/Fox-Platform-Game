@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Fox : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Fox : MonoBehaviour
     private Rigidbody2D rg;
     private Animator anim;
     public bool grounded = false;
+    public TMP_Text Gems;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,5 +57,10 @@ public class Fox : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision) 
     {
         grounded = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) 
+    {
+        Destroy(collision.gameObject);
     }
 }
